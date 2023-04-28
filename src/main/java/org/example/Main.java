@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.CodeTests.ContainsDuplicate;
 import org.example.CodeTests.MaxProfit;
 import org.example.CodeTests.PalindromeNumber;
 import org.example.CodeTests.TestCode;
@@ -15,17 +16,22 @@ public class Main {
         * boolean isPal = test.isPalindrome(-121);
         * */
 
-        TestCode test1 = new PalindromeNumber();
-        Boolean isPal = (Boolean) test1.test(121);
-        System.out.println("isPal : " + isPal);
+        TestCode test = new PalindromeNumber();
+        //Boolean isPal = (Boolean) test.test(121);
+        //System.out.println("isPal : " + isPal);
 
-        TestCode test2 = new MaxProfit();
+        test = new MaxProfit();
         int[] prices1 = {7,1,5,3,6,4};
         int[] prices2 = {7,6,4,3,1};
 
-        int profit = (int) test2.test(prices2);
-        System.out.println("profit : " + profit);
+        //int profit = (int) test.test(prices2);
+        //System.out.println("profit : " + profit);
 
+        test = new ContainsDuplicate();
+
+        int[] nums = {1,2,3,1};
+        Boolean isDup = (Boolean) test.test(nums);
+        System.out.println("isDup : " + isDup);
 
 
 
