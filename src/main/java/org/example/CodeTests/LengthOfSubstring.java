@@ -1,4 +1,4 @@
-package org.example.CodeTests.Day1;
+package org.example.CodeTests;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

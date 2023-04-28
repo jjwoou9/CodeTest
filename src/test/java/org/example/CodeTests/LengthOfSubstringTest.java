@@ -1,4 +1,4 @@
-package org.example.CodeTests.Day1;
+package org.example.CodeTests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
