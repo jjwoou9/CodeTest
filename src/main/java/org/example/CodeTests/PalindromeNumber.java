@@ -1,6 +1,6 @@
 package org.example.CodeTests;
 
-public class PalindromeNumber {
+public class PalindromeNumber implements TestCode<Boolean, Integer> {
     /*
     * Given an integer x, return true if x is a  palindrome, and false otherwise.
     * */
@@ -32,5 +32,10 @@ public class PalindromeNumber {
             System.out.println("ELSE");
         }
         return isPalindrome;
+    }
+
+    @Override
+    public Boolean test(Integer value) {
+        return this.isPalindrome(value);
     }
 }
