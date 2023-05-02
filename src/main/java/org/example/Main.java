@@ -20,9 +20,9 @@ public class Main {
         //Boolean isPal = (Boolean) test.test(121);
         //System.out.println("isPal : " + isPal);
 
-        test = new MaxProfit();
+/*        test = new MaxProfit();
         int[] prices1 = {7,1,5,3,6,4};
-        int[] prices2 = {7,6,4,3,1};
+        int[] prices2 = {7,6,4,3,1};*/
 
         //int profit = (int) test.test(prices2);
         //System.out.println("profit : " + profit);
@@ -34,11 +34,19 @@ public class Main {
         System.out.println("isDup : " + isDup);
 */
 
-        test = new ProductExceptSelf();
+/*        test = new ProductExceptSelf();
         //int[] nums = {1, 2, 3, 4};
         int[] nums = {-1,1,0,-3,3};
         int[] arr = (int[]) test.test(nums);
-        System.out.println("arr : " + Arrays.toString(arr));
+        System.out.println("arr : " + Arrays.toString(arr));*/
+
+        // s = "III"
+        // s = "LVIII"
+        // s = "MCMXCIV"
+        test = new RomanToInteger();
+        //System.out.println("answer should be 3 : " + test.test("III"));
+        //System.out.println("answer should be 58 : " + test.test("LVIII"));
+        System.out.println("answer should be 1994 : " + test.test("MCMXCIV"));
 
 
 
