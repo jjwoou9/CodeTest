@@ -12,9 +12,9 @@ public class Main {
 
         //Test
         /*
-        * PalindromeNumber test = new PalindromeNumber();
-        * boolean isPal = test.isPalindrome(-121);
-        * */
+         * PalindromeNumber test = new PalindromeNumber();
+         * boolean isPal = test.isPalindrome(-121);
+         * */
 
         TestCode test = new PalindromeNumber();
         //Boolean isPal = (Boolean) test.test(121);
@@ -43,12 +43,21 @@ public class Main {
         // s = "III"
         // s = "LVIII"
         // s = "MCMXCIV"
-        test = new RomanToInteger();
+        //test = new RomanToInteger();
         //System.out.println("answer should be 3 : " + test.test("III"));
         //System.out.println("answer should be 58 : " + test.test("LVIII"));
-        System.out.println("answer should be 1994 : " + test.test("MCMXCIV"));
+        //System.out.println("answer should be 1994 : " + test.test("MCMXCIV"));
 
+        test = new LongestCommonPrefix();
+        String[] val = {"flower","flow","flight"};
+        String[] case3 = {"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                            "aab",
+                            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",};
+        String answer = (String) test.test(val);
 
+        System.out.println("========================================");
+        System.out.println("answer : " + answer);
 
     }
 
