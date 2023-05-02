@@ -48,7 +48,7 @@ public class Main {
         //System.out.println("answer should be 58 : " + test.test("LVIII"));
         //System.out.println("answer should be 1994 : " + test.test("MCMXCIV"));
 
-        test = new LongestCommonPrefix();
+/*        test = new LongestCommonPrefix();
         String[] val = {"flower","flow","flight"};
         String[] case3 = {"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                             "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
@@ -57,7 +57,12 @@ public class Main {
         String answer = (String) test.test(val);
 
         System.out.println("========================================");
-        System.out.println("answer : " + answer);
+        System.out.println("answer : " + answer);*/
+
+        test = new ValidParentheses();
+        System.out.println("Cas1 isValidParenthese :   "  + test.test("()") );
+        System.out.println("Cas2 isValidParenthese :   "  + test.test("()[]{}") );
+        System.out.println("Cas3 isValidParenthese :   "  + test.test("(]") );
 
     }
 
